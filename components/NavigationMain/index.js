@@ -8,16 +8,15 @@ export default function NavigationMain() {
     // console.log('dropdown data', navDropdownData?.dropdownLinks)
     return (
         <Navbar className={styles.navMain} variant="dark">
-            <Container>
                 <Nav className="justify-content-center">
                     {
-                        navDropdownData?.dropdownLinks?.map((link, index) => {
+                        navDropdownData?.dropdownLinks?.map((link, i) => {
                             return (
-                                <NavDropdown title={link?.name} id="basic-nav-dropdown" key={`nav-main-key-${link?.name}-${index}`}>
+                                <NavDropdown title={link?.name} id="basic-nav-dropdown" key={`nav-main-key-${link?.name}-${i}`}>
                                     {
-                                        link?.dropdownLink?.map((item, jndex) => {
+                                        link?.dropdownLink?.map((item, j) => {
                                             return (
-                                                <NavDropdown.Item href="#action/3.2" key={`nav-main-key-dropdown-link-${item?.dropdownName}-${jndex}`}>{item?.dropdownName}</NavDropdown.Item>
+                                                <NavDropdown.Item href="#action/3.2" key={`nav-main-key-dropdown-link-${item?.dropdownName}-${j}`}>{item?.dropdownName}</NavDropdown.Item>
                                             );
                                         })
                                     }
@@ -26,7 +25,6 @@ export default function NavigationMain() {
                         })
                     }
                 </Nav>
-            </Container>
         </Navbar>
     )
 }

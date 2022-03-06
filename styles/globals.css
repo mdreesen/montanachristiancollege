@@ -7,17 +7,18 @@ body {
 }
 
 iframe {
-  position: relative;
-  top: 24vh;
   pointer-events: none;
-    width: 100vw;
-    max-width: none;
-    height: 100vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    z-index: 1;
+  width: 100vw;
+  height: 56.25vw;
+  max-width: none;
+  min-height: 100vh;
+  min-width: 177.77vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 iframe::after {
   background-color: rgba(0,0,0,0.5);

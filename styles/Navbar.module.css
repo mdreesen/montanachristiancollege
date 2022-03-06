@@ -4,7 +4,8 @@
 }
 
 .navMain {
-  height: 8vh;  
-  background-color: #146636;
+  height: 8vh;
+  justify-content: center;
+  background: rgba(0,0,0,1);
   z-index: 1000;
 }
