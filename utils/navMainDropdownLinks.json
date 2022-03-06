@@ -1,0 +1,39 @@
+{
+    "dropdownLinks": [
+        {
+            "name": "Admissions",
+            "dropdownLink": [
+                {
+                    "dropdownName": "Undergraduate Admissions"
+                },
+                {
+                    "dropdownName": "Graduate Admissions"
+                },
+                {
+                    "dropdownName": "MCC Online"
+                },
+                {
+                    "dropdownName": "International Students"
+                },
+                {
+                    "dropdownName": "Grants & Scholarships"
+                },
+                {
+                    "dropdownName": "Orientation"
+                },
+                {
+                    "dropdownName": "Duel Enrollment"
+                }
+            ]
+        },
+        {
+            "name": "Academics"
+        },
+        {
+            "name": "Campus Life"
+        },
+        {
+            "name": "Athletics"
+        }
+    ]
+}

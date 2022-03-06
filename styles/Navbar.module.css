@@ -1,0 +1,10 @@
+.navbar {
+  height: 8vh;  
+  z-index: 1000;
+}
+
+.navMain {
+  height: 8vh;  
+  background-color: #146636;
+  z-index: 1000;
+}
